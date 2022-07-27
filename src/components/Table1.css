@@ -1,0 +1,26 @@
+thead{
+    border:1.5px solid black
+}
+.th1{
+    padding:0.6px 0.3px;
+    border:none;
+    border-left:1.5px solid black;
+    border-right:1.5px solid black
+  }
+  .td{
+    border:none;
+    border-right:1.5px solid black
+}
+.t{
+    border:none;
+    border:1.5px solid  rgb(34, 195, 34)
+}
+
+.f{
+    border-top:1.5px solid black;
+    border-bottom:1px solid black
+}
+
+.last{
+    border:none
+}

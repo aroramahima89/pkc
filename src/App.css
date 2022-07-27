@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.app{
+  max-width:70vw;
+  border:1px solid black;
+  background-color:white;
+  margin:2rem 14rem;
+}
+.header{
+  border:2.5px solid rgb(34, 195, 34);
+  margin:0.5rem;
+  float:right;
+}
+.a{
+  border:2.5px solid rgb(34, 195, 34);
+  margin-top:19%;
+}
+.a1,.a2{
+  font-weight: bold;
+}
+.a2{
+  float:right;
+}
+.a+h3{
+  padding-left:23rem;
+}
+.party{
+  border:2.5px solid rgb(34, 195, 34);
+  margin:1% 31%;
+  padding:0.2rem 4.4rem;
+  width:35%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content{
+  margin-left:36%;
+}
+.table1,.table2{
+  width:85%;
+  margin:3rem;
+}
+.padding td{
+  padding-bottom:10rem;
+}
+.container{
+  margin:2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(max-width:1200px){
+  .app{
+    max-width:80vw;
+    margin:0rem;
+    font-size:small;
+  }
+  .a{
+    margin-top:24%;
+  }
+  .a2{
+    float:none;  
+  }
+  .a+h3{
+    padding-left:17rem;
+  }
+  .party{
+    margin:1% 25%;
+    width:35%;
+    padding:0.6rem 3rem;
+  }
+  .table1{
+    width:65%;
+    margin:4rem;
+  }
+  .table2{
+    width:65%;
+    margin:2.5rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:800px){
+  .app{
+    width:100vw;
+     max-width:100vw;
+     margin:0rem;
+     font-size:small;
   }
-  to {
-    transform: rotate(360deg);
+  .a{
+    margin-top:25%;
+  }
+  .a+h3{
+    padding-left:11rem;
+  }
+  .party{
+    margin:1% 25%;
+    width:40%;
+    padding:0.4rem;
+  }
+  .content{
+    margin-left:29%;
+  }
+  .table1{
+    width:60%;
+    margin-left:4rem;
+  }
+  .table2{
+    width:52%;
+    margin-left:5%;
+  }
+}
+
+@media(max-width:600px){
+  .a{
+    margin-top:30%;
+  }
+  .table2{
+    margin:0%;
   }
 }

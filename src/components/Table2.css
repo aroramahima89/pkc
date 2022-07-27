@@ -1,0 +1,43 @@
+ td{
+    border:1px solid black; 
+    border-collapse:collapse;
+ }
+ .style1{
+  border:1px solid blue;
+  border-bottom:1px solid black;
+  border-collapse:collapse
+  
+}
+ .style2{
+  border:1px solid rgb(34, 195, 34);
+  border-bottom:1px solid black;
+  border-collapse:"collapse"
+}
+.style3{
+  border:1.5px solid yellow;
+  border-bottom:1px solid black;
+  border-collapse:"collapse" 
+}
+ .g1{
+    border-left:1px solid rgb(34, 195, 34);
+  }
+  .g2{
+    border-right:1px solid rgb(34, 195, 34);
+  }
+  .yellow{
+    border-left:1.5px solid yellow;
+    border-right:1.5px solid yellow;
+  }
+  .blue{
+    border-right:1px solid blue;
+  }
+  .y{
+    border-bottom:1.5px solid yellow;
+  }
+  .b{
+    border-bottom:1px solid blue;
+  }
+  .g{
+    border-bottom:px solid  rgb(34, 195, 34);
+  }
+ 
